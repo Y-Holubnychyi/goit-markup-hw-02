@@ -67,14 +67,14 @@ button:focus {
     font-family: inherit;
 }
 
-h1 {
+.main-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
-.main-title {
+.section-title {
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
