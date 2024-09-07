@@ -7,6 +7,8 @@ ul, ol {list-style: none;}
 a {text-decoration: none;}
 button {
     cursor: pointer;
+}
+.order-servie-button {
     font-weight: 500;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
@@ -14,10 +16,9 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;}
-button:hover,
-button:focus {
+.order-servie-button:hover,
+.order-servie-button:focus {
     background-color: #404bbf;
-    ;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -71,22 +72,25 @@ button:focus {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 .section-title {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-transform:capitalize;
     color: #2e2f42;
 }
+.section-our-team {
+    background-color: #f4f4fd;
+}
+
 .our-team-list-fullname {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: #2e2f42;
 }
 .our-team-list-text {
@@ -94,9 +98,13 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
+.our-team-list-item {
+    background-color: #FFFFFF;
+}
+.our-benefits-list-name,
+.our-team-list-fullname,
 .our-portfolio-list-name {
     font-weight: 500;
     font-size: 20px;
@@ -104,6 +112,8 @@ button:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.our-benefits-list-text,
+.our-team-list-text,
 .our-portfolio-list-text {
     font-weight: 400;
     font-size: 16px;
